@@ -9,6 +9,10 @@
     pkgs.php82Packages.composer
     pkgs.nodejs_20
   ];
+  services.mysql = {
+  enable = true;
+  package = pkgs.mysql;
+};
   # Sets environment variables in the workspace
   env = {};
   idx = {
