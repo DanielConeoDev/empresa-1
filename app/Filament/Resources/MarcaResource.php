@@ -20,7 +20,7 @@ class MarcaResource extends Resource
     protected static ?string $model = Marca::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
-    protected static ?string $navigationGroup = 'Productos';
+    protected static ?string $navigationGroup = 'Etiquetas';
     protected static ?string $modelLabel = 'Marca';
     protected static ?string $pluralModelLabel = 'Marcas';
 
